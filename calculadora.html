@@ -6,10 +6,9 @@
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Roboto+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/calculadora.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-
-	<h1>Calculadora</h1>
 
 	<div class="contenedor">
         <div id="resultado"></div>
@@ -17,15 +16,17 @@
             <input type="text" placeholder="1° valor" id="n1">
             <input type="text" placeholder="2° valor" id="n2">
         </div>
-        <div class="inputs">
-            <div class="inputs1">
-                <input type="button" value="   Sumar   " id="sumar">
-                <input type="button" value="  Dividir  " id="dividir">
-                <input type="button" value="  Factorial " id="factorial">
+        <div class="buttonsContainer">
+            <div class="buttons">
+                <input type="button" value="Sumar" id="sumar">
+                <input type="button" value="Restar" id="restar">
             </div>
-            <div class="inputs2">
-                <input type="button" value="   Restar  " id="restar">
+            <div class="buttons">
+                <input type="button" value="Dividir" id="dividir">
                 <input type="button" value="Multiplicar" id="multiplicar">
+            </div>
+            <div class="buttons">
+                <input type="button" value="Factorial" id="factorial">
                 <input type="button" value="Cuadrado" id="cuadrado">
             </div>
         </div>
